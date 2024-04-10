@@ -72,7 +72,6 @@ nav.nav {
 }
 
 .nav-toggle {
-  position: fixed;
   top: 1rem;
   right: 1rem; /* Adjust as needed */
   bottom: 1rem; /* Adjust as needed */
