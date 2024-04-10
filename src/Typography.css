@@ -1,0 +1,163 @@
+/* CSS for mobile view (414px width) */
+
+/* smaller text for mobile */
+/* font-size 48px, 36px, 20px, 16px */
+#root {
+  /* font-family */
+  --ff-primary: LibreBaskerville, sans-serif;
+  --ff-secondary: Montserrat, sans-serif;
+
+  /* font-weight */
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  /* font-size */
+  --fs-h1: 1.5rem; /* 24px */
+  --fs-h2: 1.25rem; /* 20px */
+  --fs-h3: 1.125rem; /* 18px */
+  --fs-h4: 1rem; /* 16px */
+  --fs-h5: .875rem; /* 14px */
+  --fs-body: 1rem; /* 16px */
+
+  /* Primary & secondary text styles */
+  .primary-text-reg-light {
+    font-family: LibreBaskerville-Regular, serif;
+    font-weight: 400;
+    color: #f5f5f5;
+  }
+  .primary-text-bold-light {
+    font-family: LibreBaskerville-Bold, serif; 
+    font-weight: 700;
+    color: #f5f5f5;
+  }
+  .secondary-text-reg-light {
+    font-family: Montserrat-Regular, sans-serif; 
+    font-weight: 400;
+    color: #f5f5f5;
+  }
+  .secondary-text-bold-light {
+    font-family: Montserrat-SemiBold, sans-serif; 
+    font-weight: 600;
+    color: #f5f5f5;
+  }
+  .primary-text-reg-dark {
+    font-family: LibreBaskerville-Regular serif; 
+    font-weight: 400;
+    color: #111111;
+  }
+  .primary-text-bold-dark {
+    font-family: LibreBaskerville-Bold, serif;
+    font-weight: 700;
+    color: #111111;
+  }
+  .secondary-text-reg-dark {
+    font-family: Montserrat-Regular, sans-serif; 
+    font-weight: 400;
+    color: #111111;
+  }
+  .secondary-text-bold-dark {
+    font-family: Montserrat-SemiBold, sans-serif; 
+    font-weight: 600;
+    color: #111111;
+  }
+  .primary-text-bold-accent {
+    font-family: LibreBaskerville-Bold, serif; 
+    font-weight: 700;
+    color: #5a5e7d
+  }
+  .secondary-text-bold-accent {
+    font-family: Montserrat-SemiBold, sans-serif; 
+    font-weight: 600;
+    color: #5a5e7d
+  }
+
+  p {
+    font-family: Montserrat-Regular, sans-serif; 
+    font-weight: 400;
+    color: #111111;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+  }
+
+  /* Left-aligned text */
+  .left-align {
+    text-align: left;
+  }
+
+  /* Center-aligned text */
+  .center-align {
+    text-align: center;
+  }
+
+  /* Typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: var(--fs-h1);
+  }
+  h2 {
+    font-size: var(--fs-h2);
+  }
+  h3 {
+    font-size: var(--fs-h3);
+  }
+  h4 {
+    font-size: var(--fs-h4);
+  }
+  h5 {
+    font-size: var(--fs-h5);
+  }
+}
+
+/* Font-face rules outside of :root */
+@font-face {
+  font-family: LibreBaskerville-Regular, serif;
+  src: local("librebaskerville-regular"),
+    url("../public/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
+    url("../public/fonts/LibreBaskerville-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: LibreBaskerville-Bold, serif;
+  src: local("librebaskerville-bold"),
+    url("../public/fonts/LibreBaskerville-Bold.woff2") format("woff2"),
+    url("../public/fonts/LibreBaskerville-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat-Regular, sans-serif;
+  src: local("monserrat-regular"),
+    url("../public/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../public/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold, sans-serif;
+  src: local("montserrat-semibold"),
+    url("../public/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../public/fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 700;
+}
+
+/* desktop + tablet landscape*/
+@media (min-width: 1280px) and (max-width: 1440px) {
+  #root {
+    --fs-h1: 1.875rem; /* 30px */
+    --fs-h2: 1.25rem; /* 20px */
+    --fs-h3: 1.125rem; /* 18px */
+    --fs-h4: 1rem; /* 16px */
+    --fs-h5: .875rem; /* 14px */
+    --fs-body: 1rem; /* 16px */
+  }
+}

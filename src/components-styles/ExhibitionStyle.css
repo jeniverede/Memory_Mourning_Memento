@@ -1,0 +1,33 @@
+.page-container {
+  width: 100%;
+  position: relative; /* Add position: relative to create a positioning context */
+  padding: 0 1rem;   /* Ensure the height adjusts to the content */
+}
+
+/* img container and img */
+.img-container {
+  width: 100%; /* Adjust the width to fill the container */
+  height: auto;
+  position: absolute;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text on top of hero image */
+.image-text-one-row {
+  width: 100%;
+  position: absolute; /* Change to absolute positioning */
+  top: 30%; /* Adjust positioning vertical*/
+  left: 50%; /* Adjust positioning horizontal*/
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text vertically and horizontally */
+}
+
+
+

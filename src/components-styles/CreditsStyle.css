@@ -1,0 +1,13 @@
+.credits-text ul li{
+    list-style-type: none;
+}
+
+.resources li {
+    margin: 1rem 0;
+}
+
+#left-align {
+    text-align: left;
+}
+
+/* keep for media queries */

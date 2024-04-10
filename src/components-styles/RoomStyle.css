@@ -1,0 +1,168 @@
+.page-container {
+  width: 100%;
+  position: relative; /* Add position: relative to create a positioning context */
+  height: auto; /* Ensure the height adjusts to the content */
+}
+
+/* img-container and main-img */
+.img-container {
+  width: 100%; /* Adjust the width to fill the container */
+  margin: 0 0 1rem 0;
+  height: auto;
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+  filter: drop-shadow(0px 10px 10px #5a5e7d);
+}
+
+/* Text on top of main image */
+.image-text-one-row {
+  width: 100%;
+  position: absolute; /* Change to absolute positioning */
+  top: 40%; /* Adjust positioning vertical*/
+  left: 50%; /* Adjust positioning horizontal*/
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text vertically and horizontally */
+}
+
+/* settings for all jpg files */
+.jpg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 1rem auto;
+  filter: drop-shadow(0px 10px 10px #5a5e7d);
+}
+
+/* images on About page: container, figure, img */
+.about {
+  width: 100%;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0px 10px 10px #5a5e7d);
+}
+
+.figure-about {
+  width: 75%;
+  margin: auto;
+}
+
+.jpg-about {
+  width: 100%;
+}
+
+/* Base styles for alternating sections */
+.section-image-to-right,
+.section-image-to-left {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+/* layout setting for content: img right align & left align */
+/* Image to the right */
+.image-right {
+  width: 75%;
+  margin: auto;
+  filter: drop-shadow(0px 10px 10px #5a5e7d);
+}
+
+.image-left {
+  width: 75%;
+  margin: auto;
+  filter: drop-shadow(0px 10px 10px #5a5e7d);
+}
+
+/* Reverse the order of items in the section to display the image to the right */
+.section-image-to-right .image-right {
+  order: 2; /* Change the order */
+}
+
+.section-image-to-right .object-text {
+  order: 1; /* Change the order */
+  margin-right: 1rem;
+}
+
+.section-image-to-left .image-left {
+  order: 1; /* Change the order */
+}
+
+.section-image-to-left .object-text {
+  order: 2; /* Change the order */
+  margin-left: 1rem;
+}
+
+/* solid line for dividing sections */
+.border-line {
+  margin: 2rem;
+}
+
+hr.solid {
+  border: 1.5px solid var(--clr-medgrey);
+  width: 60%;
+  margin: auto;
+}
+
+/* credits page */
+.credits {
+  display: flex;
+  flex-direction: column;
+}
+
+.credits-text {
+  margin: auto;
+}
+
+.credits-text ul li {
+  list-style-type: none;
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  /* img-container narrower and centered */
+  .img-container {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .section-image-to-right,
+  .section-image-to-left {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+  }
+
+  .image-right {
+    width: 100%;
+  }
+
+  .image-left {
+    width: 100%;
+  }
+
+  /* image on Promo Material page */
+  .img-center {
+    width: 50%;
+    margin: auto;
+  }
+
+  .jpg {
+    margin: auto;
+  }
+
+  /* images on about page */
+  .figure-about {
+    width: 50%;
+    margin: auto;
+  }
+
+  .object-text {
+    margin: 1rem 0;
+  }
+}

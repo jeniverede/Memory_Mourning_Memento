@@ -1,0 +1,35 @@
+.top-nav-bar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 25%;
+  height: auto;
+  margin: .5rem;
+}
+
+/* Tablet Landscape */
+@media (min-width: 1024px) and (max-width: 1112px) {
+  /* Your styles here */
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 834px) {
+  /* Your styles here */
+}
+
+/* Desktop */
+@media (min-width: 1280px) and (max-width: 1440px) {
+  #logo {
+    width: 10%;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+/* CSS for mobile view (414px width) */
+/* Reset */
+/* Apply box-sizing to all elements */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Optional: Reset margin and padding */
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  /* Styles for the body element, font family, margin, padding, background color, etc */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  /* Add any other global styles you want for the body */
+}
+
+/* Styles for the root element, to set specific styles for the top-level container of your React application */
+/* By default, it's usually set to occupy the entire viewport, max-width mobile view portrait */
+#root {
+  background-color: var(--clr-accent);
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+}
+
+figure {
+  display: block; /* Ensures it takes up the full width of its container */
+  margin: 0; /* Reset margin */
+}

@@ -1,0 +1,17 @@
+/* CSS for mobile view (414px width) */
+/* CSS variables, method for declaring re-usable values and can be updated */
+/* .root specific to total viewport width */
+:root {
+  /* colors */
+  --clr-light: #f5f5f5;
+  --clr-dark: #111111;
+  --clr-accent: #c0c4e3;
+  --clr-medaccent: mediumpurple;
+  --clr-medgrey: #5a5e7d;
+
+  /* box shadow */
+  --bs: 0.25rem 0.25rem 0.75rem rgba(90, 94, 125, 0.25),
+    0.125rem 0.125rem 0.25rem rgba(90, 94, 125, 0.15);
+
+
+}

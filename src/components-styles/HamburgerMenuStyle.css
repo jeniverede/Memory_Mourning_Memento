@@ -1,0 +1,157 @@
+.hamburger-menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+/* complex way of doing hamburger so we can animate */
+.nav {
+  position: fixed;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100; /* layers the nav menu under the nav-toggle */
+  /* enables the flyout menu */
+  transform: translateX(100%);
+  transition: 250ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+nav.nav {
+  background-color: var(--clr-medgrey);
+}
+
+/* items within the flyout */
+.nav__list {
+  background-color: var(--clr-medgrey);
+  font-family: var(--ff-secondary);
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 2rem 3.125rem;
+  padding: 0;
+}
+
+.nested-pages li {
+  list-style-type: none;
+  text-align: left;
+  height: auto;
+  margin-left: 1.125rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.nested-pages li a {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-bold);
+  color: var(--clr-light);
+  text-decoration: none;
+}
+.nested-pages li a:hover {
+  color: var(--clr-accent);
+}
+
+.nav__link {
+  color: inherit;
+  font-weight: 700;
+  font-size: var(--fs-h3);
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: var(--clr-accent);
+}
+
+.nav-toggle {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1000; /* brings nav-toggle to the front */
+}
+
+/* defines width of flyout menu, 45% is the amount the menu does not cover */
+.nav-open .nav {
+  transform: translateX(45%);
+}
+
+/* x to close flyout menu */
+.nav-open .nav-toggle {
+  background-color: transparent;
+  position: relative;
+}
+
+.nav-open .hamburger {
+  transform: rotate(0.625turn);
+}
+
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-0.375rem);
+}
+
+.nav-open .hamburger::after {
+  opacity: 0;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background-color: var(--clr-accent);
+  /* color of hamburger bars & nav toggle */
+  width: 2rem;
+  height: 0.188rem;
+  border-radius: 1rem;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before {
+  top: 0.375rem;
+}
+
+.hamburger::after {
+  bottom: 0.375rem;
+}
+
+/* Tablet landscape */
+@media (min-width: 1024px) and (max-width: 1112px) {
+  /* Your styles here */
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 834px) {
+  /* Your styles here */
+}
+
+/* Desktop */
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .hamburger-menu-container {
+    padding: 2rem;
+  }
+
+  /* defines width of flyout menu, 75% is the amount the menu does not cover */
+  .nav-open .nav {
+    transform: translateX(75%);
+  }
+}
