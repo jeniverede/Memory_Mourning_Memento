@@ -81,7 +81,7 @@ nav.nav {
 
 /* defines width of flyout menu, 45% is the amount the menu does not cover */
 .nav-open .nav {
-  transform: translateX(35%);
+  transform: translateX(30%);
 }
 
 /* x to close flyout menu */
