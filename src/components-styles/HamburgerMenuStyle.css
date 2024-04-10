@@ -18,6 +18,8 @@
   /* enables the flyout menu */
   transform: translateX(100%);
   transition: 250ms cubic-bezier(0.5, 0, 0.5, 1);
+  overflow-y: auto;
+  max-height: 80vh; /* Limit the maximum height of the menu to ensure it fits within the viewport */
 }
 
 nav.nav {
@@ -70,12 +72,15 @@ nav.nav {
 }
 
 .nav-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem; /* Adjust as needed */
+  bottom: 1rem; /* Adjust as needed */
+  z-index: 999; /* Ensure the button is above other elements */
   padding: 0.5rem;
   background-color: transparent;
   border: 0;
   cursor: pointer;
-  right: 1rem;
-  top: 1rem;
   z-index: 1000; /* brings nav-toggle to the front */
 }
 
