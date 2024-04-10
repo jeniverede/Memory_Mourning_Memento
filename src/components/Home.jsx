@@ -66,9 +66,9 @@ export function Home() {
                         </p>
                         
                         <p>
-                            This website is a digital representation of my master&apos;s thesis, the research I did, the exhibition I
-                            designed, the objects I included in the exhibition and the details about those objects.
-                            I have included the texts included in the exhibition, images and collection information from the museums
+                            This website is a digital representation of my master&apos;s thesis. Included are the research, the exhibition 
+                            design, the objects in the exhibition and the details about those objects.
+                            I have included the texts from the exhibition, images and collection information from the museums
                             they belong to. My entire thesis is not repesented here. I have arranged the pages and content in a way that 
                             I hope will be easy to read and understand.
                         </p>
