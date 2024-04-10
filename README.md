@@ -1,8 +1,12 @@
-# React + Vite
+This website is a digital representation of my master's thesis and the research I did while studying at London College of Fashion,
+MA Fashion Curation programme.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Included are the exhibition design, the objects in the exhibition and the details about those objects.
+I have included the texts from the exhibition, images and collection information from the museums
+they belong to. 
 
-Currently, two official plugins are available:
+My entire thesis is not repesented here. 
+I have arranged the pages and content in a way that I hope will be easy to read and understand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the website here:
+You are welcome to contact me via email: jennifer.r.rothrock@gmail.com
