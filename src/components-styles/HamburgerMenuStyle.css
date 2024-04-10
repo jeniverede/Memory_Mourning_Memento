@@ -19,7 +19,7 @@
   transform: translateX(100%);
   transition: 250ms cubic-bezier(0.5, 0, 0.5, 1);
   overflow-y: auto;
-  max-height: 80vh; /* Limit the maximum height of the menu to ensure it fits within the viewport */
+  max-height: 100vh; /* Limit the maximum height of the menu to ensure it fits within the viewport */
 }
 
 nav.nav {
