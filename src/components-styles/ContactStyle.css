@@ -45,7 +45,7 @@ label {
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
-  font-family: Montserrat;
+  font-family: var(--ff-secondary); 
   font-size: var(--fs-h4);
   background: var(--clr-medgrey);
   color: var(--clr-light);

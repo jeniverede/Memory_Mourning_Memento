@@ -43,60 +43,69 @@
   --fs-h5: .875rem; /* 14px */
   --fs-body: 1rem; /* 16px */
 
+  /* Primary Font Family */
+.primary {
+  font-family: 'LibreBaskerville', serif;
+}
+
+/* Secondary Font Family */
+.secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
   /* Primary & secondary text styles */
   .primary-text-reg-light {
-    font-family: LibreBaskerville-Regular;
+    font-family: var(--ff-primary);
     font-weight: 400;
     color: #f5f5f5;
   }
   .primary-text-bold-light {
-    font-family: LibreBaskerville-Bold; 
+    font-family: var(--ff-secondary); 
     font-weight: 700;
     color: #f5f5f5;
   }
   .secondary-text-reg-light {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 400;
     color: #f5f5f5;
   }
   .secondary-text-bold-light {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 600;
     color: #f5f5f5;
   }
   .primary-text-reg-dark {
-    font-family: LibreBaskerville-Regular; 
-    font-weight: 400;
+    font-family: var(--ff-secondary); 
     color: #111111;
   }
   .primary-text-bold-dark {
-    font-family: LibreBaskerville-Bold;
+    font-family: var(--ff-secondary); 
     font-weight: 700;
     color: #111111;
   }
   .secondary-text-reg-dark {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 400;
     color: #111111;
   }
   .secondary-text-bold-dark {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 600;
     color: #111111;
   }
   .primary-text-bold-accent {
-    font-family: LibreBaskerville-Bold; 
+    font-family: var(--ff-secondary); 
     font-weight: 700;
     color: #5a5e7d
   }
   .secondary-text-bold-accent {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 600;
     color: #5a5e7d
   }
 
   p {
-    font-family: Montserrat; 
+    font-family: var(--ff-secondary); 
     font-weight: 400;
     color: #111111;
     text-align: left;

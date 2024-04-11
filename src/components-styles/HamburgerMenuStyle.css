@@ -29,7 +29,7 @@ nav.nav {
 /* items within the flyout */
 .nav__list {
   background-color: var(--clr-medgrey);
-  font-family: Montserrat;
+  font-family: var(--ff-secondary); 
   list-style: none;
   height: 100%;
   display: flex;
@@ -50,7 +50,7 @@ nav.nav {
 }
 
 .nested-pages li a {
-  font-family: Montserrat;
+  font-family: var(--ff-secondary); 
   font-size: var(--fs-h4);
   font-weight: var(--fw-bold);
   color: var(--clr-light);
