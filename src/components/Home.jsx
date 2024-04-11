@@ -11,7 +11,7 @@ export function Home() {
                     </figure>
 
                     <figcaption id="image-text-two-rows">
-                        <h1 className="primary-text-bold-light center-align">Mourning, Memory, Momento</h1>
+                        <h1 className="primary-text-bold-light center-align">Mourning, Memory, Memento</h1>
                         <br />
                         <h2 className="primary-text-reg-light center-align">Victorian Mourning Dress</h2>
                     </figcaption>
