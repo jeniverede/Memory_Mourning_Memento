@@ -2,7 +2,7 @@
 /* Font-face rules outside of :root */
 @font-face {
   font-family: LibreBaskerville;
-  src: local("Librebaskerville-Regular"),
+  src: local("LibreBaskerville-Regular"),
     url("../public/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
     url("../public/fonts/LibreBaskerville-Regular.woff") format("woff");
   font-weight: 400;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: LibreBaskerville;
-  src: local("Librebaskerville-Bold"),
+  src: local("LibreBaskerville-Bold"),
     url("../public/fonts/LibreBaskerville-Bold.woff2") format("woff2"),
     url("../public/fonts/LibreBaskerville-Bold.woff") format("woff");
   font-weight: 700;
