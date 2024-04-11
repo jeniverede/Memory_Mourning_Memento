@@ -29,7 +29,7 @@ nav.nav {
 /* items within the flyout */
 .nav__list {
   background-color: var(--clr-medgrey);
-  font-family: var(--ff-secondary);
+  font-family: Montserrat;
   list-style: none;
   height: 100%;
   display: flex;
