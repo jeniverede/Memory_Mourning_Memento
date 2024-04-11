@@ -112,7 +112,7 @@
 /* Font-face rules outside of :root */
 @font-face {
   font-family: LibreBaskerville;
-  src: local("librebaskerville-regular"),
+  src: local("Librebaskerville-Regular"),
     url("../public/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
     url("../public/fonts/LibreBaskerville-Regular.woff") format("woff");
   font-weight: 400;
@@ -120,7 +120,7 @@
 
 @font-face {
   font-family: LibreBaskerville;
-  src: local("librebaskerville-bold"),
+  src: local("Librebaskerville-Bold"),
     url("../public/fonts/LibreBaskerville-Bold.woff2") format("woff2"),
     url("../public/fonts/LibreBaskerville-Bold.woff") format("woff");
   font-weight: 700;
@@ -128,7 +128,7 @@
 
 @font-face {
   font-family: Montserrat;
-  src: local("montserrat-regular"),
+  src: local("Montserrat-Regular"),
        url("../public/fonts/Montserrat-Regular.woff2") format("woff2"),
        url("../public/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
@@ -136,10 +136,10 @@
 
 @font-face {
   font-family: Montserrat;
-  src: local("montserrat-semibold"),
+  src: local("Montserrat-Semibold"),
        url("../public/fonts/Montserrat-SemiBold.woff2") format("woff2"),
        url("../public/fonts/Montserrat-SemiBold.woff") format("woff");
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* desktop + tablet landscape*/
