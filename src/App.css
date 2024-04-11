@@ -14,17 +14,19 @@
     0.125rem 0.125rem 0.25rem rgba(90, 94, 125, 0.15);
 }
 
-/* Mobile Landscape */
-@media (min-width: 810px) {
+/* Mobile Portrait - pink */
+
+/* Mobile Landscape - ? */
+@media (min-width: 600px) {
   .page-container {
-    background-color: blueviolet;
+    background-color: red;
   }
 }
 
-/* Tablet Portrait */
-@media (min-width: 896px) {
+/* Tablet Portrait*/
+@media (min-width: 810px) {
   .page-container {
-    background-color: red;
+    background-color: blueviolet;
   }
 }
 
