@@ -1,8 +1,40 @@
 /* CSS for mobile view (414px width) */
+/* Font-face rules outside of :root */
+@font-face {
+  font-family: LibreBaskerville;
+  src: local("Librebaskerville-Regular"),
+    url("../public/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
+    url("../public/fonts/LibreBaskerville-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: LibreBaskerville;
+  src: local("Librebaskerville-Bold"),
+    url("../public/fonts/LibreBaskerville-Bold.woff2") format("woff2"),
+    url("../public/fonts/LibreBaskerville-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat-Regular"),
+       url("../public/fonts/Montserrat-Regular.woff2") format("woff2"),
+       url("../public/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat-Semibold"),
+       url("../public/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+       url("../public/fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
 
 /* smaller text for mobile */
 /* font-size 48px, 36px, 20px, 16px */
-#root {
+:root {
   /* font-size */
   --fs-h1: 1.5rem; /* 24px */
   --fs-h2: 1.25rem; /* 20px */
@@ -107,39 +139,6 @@
   h5 {
     font-size: var(--fs-h5);
   }
-}
-
-/* Font-face rules outside of :root */
-@font-face {
-  font-family: LibreBaskerville;
-  src: local("Librebaskerville-Regular"),
-    url("../public/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
-    url("../public/fonts/LibreBaskerville-Regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: LibreBaskerville;
-  src: local("Librebaskerville-Bold"),
-    url("../public/fonts/LibreBaskerville-Bold.woff2") format("woff2"),
-    url("../public/fonts/LibreBaskerville-Bold.woff") format("woff");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: local("Montserrat-Regular"),
-       url("../public/fonts/Montserrat-Regular.woff2") format("woff2"),
-       url("../public/fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: local("Montserrat-Semibold"),
-       url("../public/fonts/Montserrat-SemiBold.woff2") format("woff2"),
-       url("../public/fonts/Montserrat-SemiBold.woff") format("woff");
-  font-weight: 600;
 }
 
 /* desktop + tablet landscape*/
