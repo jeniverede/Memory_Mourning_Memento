@@ -50,7 +50,7 @@ nav.nav {
 }
 
 .nested-pages li a {
-  font-family: var(--ff-secondary);
+  font-family: Montserrat;
   font-size: var(--fs-h4);
   font-weight: var(--fw-bold);
   color: var(--clr-light);
