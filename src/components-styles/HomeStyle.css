@@ -1,5 +1,6 @@
 /* CSS for mobile view (414px width) */
 .page-container {
+  background-color: pink;
   width: 100%;
   position: relative; /* Add position: relative to create a positioning context */
   padding: 0 1rem;

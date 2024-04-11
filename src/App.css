@@ -1,4 +1,4 @@
-/* CSS for mobile view (414px width) */
+/* CSS for mobile view (?px max-width) */
 /* CSS variables, method for declaring re-usable values and can be updated */
 /* .root specific to total viewport width */
 :root {
@@ -12,6 +12,33 @@
   /* box shadow */
   --bs: 0.25rem 0.25rem 0.75rem rgba(90, 94, 125, 0.25),
     0.125rem 0.125rem 0.25rem rgba(90, 94, 125, 0.15);
-
-
 }
+
+/* Mobile Landscape */
+@media (min-width: 810px) {
+  .page-container {
+    background-color: blueviolet;
+  }
+}
+
+/* Tablet Portrait */
+@media (min-width: 896px) {
+  .page-container {
+    background-color: red;
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 1080px) {
+  .page-container {
+    background-color: blue;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  .page-container {
+    background-color: green;
+  }
+}
+
