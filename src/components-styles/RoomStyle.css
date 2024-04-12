@@ -57,6 +57,10 @@
   width: 100%;
 }
 
+.jpg-design {
+  width: 100%;
+}
+
 /* Base styles for alternating sections */
 .section-image-to-right,
 .section-image-to-left {
@@ -161,6 +165,10 @@ hr.solid {
   .image-left {
     width: 50%;
   }
+
+  .jpg-design {
+    width: 50%;
+  }
 }
 
 /* Tablet Landscape */
@@ -187,6 +195,10 @@ hr.solid {
 
   .image-left {
     width: 75%;
+  }
+
+  .jpg-design {
+    width: 50%;
   }
 }
 

@@ -32,7 +32,7 @@ export function DesignVenue() {
 
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/outside.jpg" alt="Outside of Moritzbastei, Leipzig" />
+                                <img className="jpg-design" src="./img/hardware/outside.jpg" alt="Outside of Moritzbastei, Leipzig" />
                             </figure>
 
                             <figcaption>
@@ -46,7 +46,7 @@ export function DesignVenue() {
 
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/tonneleer_800_gen.jpg" alt="Moritzbastei courtyard, Leipzig, Germany" />
+                                <img className="jpg-design" src="./img/hardware/tonneleer_800_gen.jpg" alt="Moritzbastei courtyard, Leipzig, Germany" />
                             </figure>
 
                             <figcaption>
@@ -99,7 +99,7 @@ export function DesignVenue() {
 
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/2010.entry56.1.jpg" alt="Image of Victorian inspired Gothic bodice and skirt in black" />
+                                <img className="jpg-design" src="./img/hardware/2010.entry56.1.jpg" alt="Image of Victorian inspired Gothic bodice and skirt in black" />
                             </figure>
 
                             <figcaption>
@@ -117,7 +117,7 @@ export function DesignVenue() {
                         </section>
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/victorian.contest.60.jpg" alt="Image of Victorian inspired Gothic bodice and skirt in black" />
+                                <img className="jpg-design" src="./img/hardware/victorian.contest.60.jpg" alt="Image of Victorian inspired Gothic bodice and skirt in black" />
                             </figure>
 
                             <figcaption>
@@ -157,7 +157,7 @@ export function DesignVenue() {
                         {/* Walls & room image & color swatches? */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/mila.jpg" alt="Image of walls and room construction: mila-wall®  MBA, UK" />
+                                <img className="jpg-design" src="./img/hardware/mila.jpg" alt="Image of walls and room construction: mila-wall®  MBA, UK" />
                             </figure>
 
                             <figcaption>
@@ -179,7 +179,7 @@ export function DesignVenue() {
                         {/* Victorian doors */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/355_Mourning_door_Slifer_Mansion.jpg" alt="Moritzbastei courtyard, Leipzig, Germany" />
+                                <img className="jpg-design" src="./img/hardware/355_Mourning_door_Slifer_Mansion.jpg" alt="Moritzbastei courtyard, Leipzig, Germany" />
                             </figure>
 
                             <figcaption>
@@ -200,7 +200,7 @@ export function DesignVenue() {
                         {/* Manneqins */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/mannequins Cinncinati Art Museum.jpg" alt="Image of mannequins, Cincinnati Art Museum, Cincinnati, Ohio, USA" />
+                                <img className="jpg-design" src="./img/hardware/mannequins Cinncinati Art Museum.jpg" alt="Image of mannequins, Cincinnati Art Museum, Cincinnati, Ohio, USA" />
                             </figure>
 
                             <figcaption>
@@ -221,7 +221,7 @@ export function DesignVenue() {
                         {/* Plinths & Display cases */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/fs_vista2.jpg" alt="Image of plinths and display cases with internal lighting, ClickNetherfield, UK" />
+                                <img className="jpg-design" src="./img/hardware/fs_vista2.jpg" alt="Image of plinths and display cases with internal lighting, ClickNetherfield, UK" />
                             </figure>
 
                             <figcaption>
@@ -242,7 +242,7 @@ export function DesignVenue() {
                         {/* images lighting */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/lighting example black.jpg" alt="Image of lighting example: Metropolitan Museum of Art. Exhibition: American Woman: Fashioning a National Identity. New York, NY, USA" />
+                                <img className="jpg-design" src="./img/hardware/lighting example black.jpg" alt="Image of lighting example: Metropolitan Museum of Art. Exhibition: American Woman: Fashioning a National Identity. New York, NY, USA" />
                             </figure>
 
                             <figcaption>
@@ -259,7 +259,7 @@ export function DesignVenue() {
 
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/lighting example group.jpg" alt="Image of lighting example: Metropolitan Museum of Art. Exhibition: American Woman: Fashioning a National Identity. New York, NY, USA" />
+                                <img className="jpg-design" src="./img/hardware/lighting example group.jpg" alt="Image of lighting example: Metropolitan Museum of Art. Exhibition: American Woman: Fashioning a National Identity. New York, NY, USA" />
                             </figure>
 
                             <figcaption>
@@ -277,7 +277,7 @@ export function DesignVenue() {
                         {/* image flooring */}
                         <section className="img-container">
                             <figure>
-                                <img className="jpg" src="./img/hardware/nydree-midnight-run.jpg" alt="Image of Nydree Maple Acrylic Impregnated Wood Flooring in colour Midnight Run, UK" />
+                                <img className="jpg-design" src="./img/hardware/nydree-midnight-run.jpg" alt="Image of Nydree Maple Acrylic Impregnated Wood Flooring in colour Midnight Run, UK" />
                             </figure>
 
                             <figcaption>
