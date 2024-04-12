@@ -38,7 +38,7 @@ export function PromotionalMaterial() {
                         </div>
 
                         <figure className="img-center">
-                            <img className="jpg" src="./img/promotional material/Catalogue cover.jpg" alt="Postcard of Queen Alexandra in mourning from 1901" />
+                            <img className="jpg-promo" src="./img/promotional material/Catalogue cover.jpg" alt="Postcard of Queen Alexandra in mourning from 1901" />
                         </figure>
                     </section>
 
@@ -57,7 +57,7 @@ export function PromotionalMaterial() {
                         </div>
 
                         <figure className="img-center">
-                            <img className="jpg" src="./img/promotional material/Poster.jpg" alt="Advertisement from 1900 for clothing for first mourning" />
+                            <img className="jpg-promo" src="./img/promotional material/Poster.jpg" alt="Advertisement from 1900 for clothing for first mourning" />
                         </figure>
 
 
@@ -102,7 +102,7 @@ export function PromotionalMaterial() {
                         </div>
 
                         <figure className="img-center">
-                            <img className="jpg" src="./img/mourning/jet jewellery set.jpg" alt="Replica set of jet jewellery, necklace, bracelet, earrings and brooch" />
+                            <img className="jpg-promo" src="./img/mourning/jet jewellery set.jpg" alt="Replica set of jet jewellery, necklace, bracelet, earrings and brooch" />
                         </figure>
 
                     </section>
@@ -139,7 +139,7 @@ export function PromotionalMaterial() {
                         </section>
 
                         <figure className="img-center">
-                            <img className="jpg" src="./img/promotional material/Image MdM PW.jpg"
+                            <img className="jpg-promo" src="./img/promotional material/Image MdM PW.jpg"
                                 alt="Marie de Medici, 1617 and a Protestant widow, 1635" />
                         </figure>
 
@@ -170,7 +170,7 @@ export function PromotionalMaterial() {
                         </p>
 
                         <figure className="img-center">
-                            <img className="jpg" src="./img/promotional material/woman and child in mourning.jpg"
+                            <img className="jpg-promo" src="./img/promotional material/woman and child in mourning.jpg"
                                 alt="Image of Regency mourning dress c. 1811-1820" />
                         </figure>
 

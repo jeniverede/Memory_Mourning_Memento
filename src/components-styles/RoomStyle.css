@@ -53,10 +53,7 @@
   margin: auto;
 }
 
-.jpg-about {
-  width: 100%;
-}
-
+.jpg-about,
 .jpg-design {
   width: 100%;
 }
@@ -71,12 +68,7 @@
 
 /* layout setting for content: img right align & left align */
 /* Image to the right */
-.image-right {
-  width: 75%;
-  margin: auto;
-  filter: drop-shadow(0px 10px 10px #5a5e7d);
-}
-
+.image-right,
 .image-left {
   width: 75%;
   margin: auto;
@@ -138,15 +130,13 @@ hr.solid {
     margin: auto;
   }
 
-  .image-right {
-    width: 50%;
-  }
-
+  .image-right,
   .image-left {
     width: 50%;
   }
 
-  .jpg-design {
+  .jpg-design,
+  .jpg-promo {
     width: 50%;
   }
 }
@@ -162,15 +152,13 @@ hr.solid {
     margin: auto;
   }
 
-  .image-right {
-    width: 50%;
-  }
-
+  .image-right,
   .image-left {
     width: 50%;
   }
 
-  .jpg-design {
+  .jpg-design,
+  .jpg-promo {
     width: 75%;
   }
 }
@@ -193,15 +181,13 @@ hr.solid {
     margin: 1rem 0;
   }
 
-  .image-right {
-    width: 75%;
-  }
-
+  .image-right,
   .image-left {
     width: 75%;
   }
 
-  .jpg-design {
+  .jpg-design,
+  .jpg-promo {
     width: 75%;
   }
 }
@@ -225,10 +211,7 @@ hr.solid {
     margin: 1rem 0;
   }
 
-  .image-right {
-    width: 100%;
-  }
-
+  .image-right,
   .image-left {
     width: 100%;
   }
@@ -258,7 +241,9 @@ hr.solid {
     margin: auto;
   }
 
-  .jpg-design {
+  .jpg-design,
+  .jpg-promo {
     width: 100%;
   }
 }
+
