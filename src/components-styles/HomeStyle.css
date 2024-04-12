@@ -28,7 +28,7 @@
   transform: translate(
     -50%,
     -50%
-  ); /* Center the text vertically and horizontally */
+  ) /* Center the text vertically and horizontally */
 }
 /* End text on top of hero image */
 
@@ -51,4 +51,45 @@
 .paragraph-section {
   margin: 1rem auto; /* Center the paragraph section horizontally */
   max-width: 800px; /* Adjust the max-width as needed */
+}
+
+/* Mobile Landscape */
+@media (min-width: 600px) {
+  .page-container {
+    background-color: red;
+  }
+
+  .img-container {
+    width: 50%; /* Adjust the width to fill the container */
+  }
+
+}
+
+/* Tablet Portrait*/
+@media (min-width: 810px) {
+  .page-container {
+    background-color: blueviolet;
+  }
+
+  .img-container {
+    width: 75%; /* Adjust the width to fill the container */
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 1080px) {
+  .page-container {
+    background-color: blue;
+  }
+
+  .img-container {
+    width: 50%; /* Adjust the width to fill the container */
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) and (max-width: 2560px) {
+  .page-container {
+    background-color: green;
+  }
 }

@@ -12,18 +12,22 @@
   margin: .5rem;
 }
 
-/* Tablet Landscape */
-@media (min-width: 1024px) and (max-width: 1112px) {
-  /* Your styles here */
+/* Mobile Landscape */
+@media (min-width: 600px) {
+  #logo {
+    width: 10%;
+  }
 }
 
-/* Tablet Portrait */
-@media (min-width: 768px) and (max-width: 834px) {
-  /* Your styles here */
+/* Tablet Landscape */
+@media (min-width: 1080px) {
+  #logo {
+    width: 10%;
+  }
 }
 
 /* Desktop */
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1280px) and (max-width: 2560px) {
   #logo {
     width: 10%;
   }
