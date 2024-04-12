@@ -131,6 +131,7 @@ hr.solid {
 
   .floor-plan-image {
     max-width: 75%;
+    margin: auto;
   }
 }
 
@@ -154,7 +155,7 @@ hr.solid {
   }
 
   .floor-plan-image {
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
   }
 
