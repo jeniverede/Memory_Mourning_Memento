@@ -85,7 +85,7 @@ nav.nav {
 
 /* defines width of flyout menu, 45% is the amount the menu does not cover */
 .nav-open .nav {
-  transform: translateX(30%);
+  transform: translateX(35%);
 }
 
 /* x to close flyout menu */
@@ -141,7 +141,7 @@ nav.nav {
 /* Mobile Landscape */
 @media (min-width: 600px) {
   .nav-open .nav {
-    transform: translateX(70%);
+    transform: translateX(55%);
   }
 }
 
