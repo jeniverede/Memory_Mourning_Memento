@@ -92,4 +92,7 @@
   .page-container {
     background-color: green;
   }
+  .main-image {
+    max-width: 100%;
+  }
 }
