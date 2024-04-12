@@ -136,6 +136,7 @@ hr.solid {
     width: 50%;
   }
 
+  .jpg-about,
   .jpg-design,
   .jpg-promo {
     width: 50%;
@@ -158,9 +159,13 @@ hr.solid {
     width: 50%;
   }
 
-  .jpg-design,
-  .jpg-promo {
+  .jpg-about,
+  .jpg-design {
     width: 75%;
+  }
+
+  .jpg-promo  {
+    width: 30%;
   }
 }
 
@@ -187,11 +192,16 @@ hr.solid {
     width: 75%;
   }
 
-  .jpg-design,
-  .jpg-promo {
+  .jpg-about,
+  .jpg-design {
     width: 75%;
   }
+
+  .jpg-promo  {
+    width: 30%;
+  }
 }
+
 
 /* Desktop */
 @media (min-width: 1280px) and (max-width: 2560px) {
@@ -242,9 +252,9 @@ hr.solid {
     margin: auto;
   }
 
+  .jpg-about,
   .jpg-design,
   .jpg-promo {
     width: 100%;
   }
 }
-
