@@ -59,8 +59,8 @@
     background-color: red;
   }
 
-  .img-container {
-    width: 50%; /* Adjust the width to fill the container */
+  .main-image {
+    max-width: 50%;
   }
 
 }
@@ -71,8 +71,8 @@
     background-color: blueviolet;
   }
 
-  .img-container {
-    width: 75%; /* Adjust the width to fill the container */
+  .main-image {
+    max-width: 75%;
   }
 }
 
@@ -82,8 +82,8 @@
     background-color: blue;
   }
 
-  .img-container {
-    width: 50%; /* Adjust the width to fill the container */
+  .main-image {
+    max-width: 50%;
   }
 }
 
