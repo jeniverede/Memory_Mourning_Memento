@@ -145,6 +145,10 @@ hr.solid {
   .image-left {
     width: 50%;
   }
+
+  .jpg-design {
+    width: 50%;
+  }
 }
 
 /* Tablet Portrait*/
@@ -167,7 +171,7 @@ hr.solid {
   }
 
   .jpg-design {
-    width: 50%;
+    width: 75%;
   }
 }
 
@@ -198,7 +202,7 @@ hr.solid {
   }
 
   .jpg-design {
-    width: 50%;
+    width: 75%;
   }
 }
 
