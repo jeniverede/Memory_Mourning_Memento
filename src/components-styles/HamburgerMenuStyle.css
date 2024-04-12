@@ -141,7 +141,7 @@ nav.nav {
 /* Mobile Landscape */
 @media (min-width: 600px) {
   .nav-open .nav {
-    transform: translateX(40%);
+    transform: translateX(60%);
   }
 }
 
@@ -155,10 +155,9 @@ nav.nav {
 /* Tablet landscape */
 @media (min-width: 1080px) {
   .nav-open .nav {
-    transform: translateX(60%);
+    transform: translateX(70%);
   }
 }
-
 
 /* Desktop */
 @media (min-width: 1280px) and (max-width: 2560px) {
