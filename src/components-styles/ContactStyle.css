@@ -1,4 +1,5 @@
 .form_container {
+  background-color: cadetblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,6 +63,13 @@ input:hover {
 
 /* Mobile Landscape  */
 @media (min-width: 600px) {
+  .form {
+    width: 100%;
+  }
+}
+
+/* Tablet Portrait*/
+@media (min-width: 810px) {
   .form {
     width: 100%;
   }
