@@ -57,18 +57,45 @@
   opacity: 1;
 }
 
-/* Tablet landscape */
-@media (min-width: 1024px) and (max-width: 1112px) {
-  /* Your styles here */
+/* Mobile Landscape  */
+@media (min-width: 600px) {
+  .page-container {
+    background-color: red;
+  }
+
+  .mySlides {
+    width: 50%;
+  }
 }
 
-/* Tablet Portrait */
-@media (min-width: 768px) and (max-width: 834px) {
-  /* Your styles here */
+/* Tablet Portrait*/
+@media (min-width: 810px) {
+  .page-container {
+    background-color: blueviolet;
+  }
+
+  .mySlides {
+    width: 50%;
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 1080px) {
+  .page-container {
+    background-color: blue;
+  }
+
+  .mySlides {
+    width: 50%;
+  }
 }
 
 /* Desktop */
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1280px) and (max-width: 2560px) {
+  .page-container {
+    background-color: green;
+  }
+
   .container {
     width: 50%;
   }
