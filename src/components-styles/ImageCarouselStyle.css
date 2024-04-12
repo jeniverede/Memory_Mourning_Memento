@@ -19,7 +19,7 @@
 /* Number text (1/3 etc) */
 .number-text {
   font-size: var(--fs-h4);
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   position: relative;
   top: 0;
 }
@@ -34,7 +34,7 @@
 .thumbnail-container {
   width: 100%;
   display: flex;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .row:after {
@@ -59,10 +59,6 @@
 
 /* Mobile Landscape  */
 @media (min-width: 600px) {
-  .page-container {
-    background-color: red;
-  }
-
   .mySlides {
     width: 50%;
     margin: auto;
@@ -71,10 +67,6 @@
 
 /* Tablet Portrait*/
 @media (min-width: 810px) {
-  .page-container {
-    background-color: blueviolet;
-  }
-
   .mySlides {
     width: 50%;
     margin: auto;
@@ -83,10 +75,6 @@
 
 /* Tablet Landscape */
 @media (min-width: 1080px) {
-  .page-container {
-    background-color: blue;
-  }
-
   .mySlides {
     width: 50%;
     margin: auto;
@@ -95,10 +83,6 @@
 
 /* Desktop */
 @media (min-width: 1280px) and (max-width: 2560px) {
-  .page-container {
-    background-color: green;
-  }
-
   .mySlides {
     width: 50%;
     margin: auto;

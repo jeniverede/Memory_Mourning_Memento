@@ -122,10 +122,6 @@ hr.solid {
 
 /* Mobile Landscape */
 @media (min-width: 600px) {
-  .page-container {
-    background-color: red;
-  }
-
   .floor-plan-image {
     max-width: 75%;
     margin: auto;
@@ -145,10 +141,6 @@ hr.solid {
 
 /* Tablet Portrait*/
 @media (min-width: 810px) {
-  .page-container {
-    background-color: blueviolet;
-  }
-
   .floor-plan-image {
     max-width: 75%;
     margin: auto;
@@ -164,17 +156,13 @@ hr.solid {
     width: 75%;
   }
 
-  .jpg-promo  {
+  .jpg-promo {
     width: 40%;
   }
 }
 
 /* Tablet Landscape */
 @media (min-width: 1080px) {
-  .page-container {
-    background-color: blue;
-  }
-
   .floor-plan-image {
     max-width: 90%;
     margin: auto;
@@ -197,17 +185,13 @@ hr.solid {
     width: 75%;
   }
 
-  .jpg-promo  {
+  .jpg-promo {
     width: 40%;
   }
 }
 
-
 /* Desktop */
 @media (min-width: 1280px) and (max-width: 2560px) {
-  .page-container {
-    background-color: green;
-  }
   /* img-container narrower and centered */
   .img-container {
     width: 60%;
