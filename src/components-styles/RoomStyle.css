@@ -123,7 +123,46 @@ hr.solid {
   list-style-type: none;
 }
 
-@media (min-width: 1280px) and (max-width: 1440px) {
+/* Mobile Landscape */
+@media (min-width: 600px) {
+  .page-container {
+    background-color: red;
+  }
+
+  .floor-plan-image {
+    max-width: 75%;
+  }
+}
+
+/* Tablet Portrait*/
+@media (min-width: 810px) {
+  .page-container {
+    background-color: blueviolet;
+  }
+
+  .floor-plan-image {
+    max-width: 75%;
+  }
+
+}
+
+/* Tablet Landscape */
+@media (min-width: 1080px) {
+  .page-container {
+    background-color: blue;
+  }
+
+  .floor-plan-image {
+    max-width: 70%;
+  }
+
+}
+
+/* Desktop */
+@media (min-width: 1280px) and (max-width: 2560px) {
+  .page-container {
+    background-color: green;
+  }
   /* img-container narrower and centered */
   .img-container {
     width: 60%;
