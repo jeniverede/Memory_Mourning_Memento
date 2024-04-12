@@ -133,6 +133,14 @@ hr.solid {
     max-width: 75%;
     margin: auto;
   }
+
+  .image-right {
+    width: 50%;
+  }
+
+  .image-left {
+    width: 50%;
+  }
 }
 
 /* Tablet Portrait*/
@@ -146,6 +154,13 @@ hr.solid {
     margin: auto;
   }
 
+  .image-right {
+    width: 50%;
+  }
+
+  .image-left {
+    width: 50%;
+  }
 }
 
 /* Tablet Landscape */
@@ -159,6 +174,20 @@ hr.solid {
     margin: auto;
   }
 
+  .section-image-to-right,
+  .section-image-to-left {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+  }
+
+  .image-right {
+    width: 100%;
+  }
+
+  .image-left {
+    width: 100%;
+  }
 }
 
 /* Desktop */
