@@ -253,4 +253,8 @@ hr.solid {
     max-width: 100%;
     margin: auto;
   }
+
+  .jpg-design {
+    width: 100%;
+  }
 }
