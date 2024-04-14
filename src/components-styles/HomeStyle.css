@@ -1,4 +1,4 @@
-/* CSS for mobile view (414px width) */
+/* CSS for mobile view (600px width) */
 .page-container {
   width: 100vw;
   position: relative; /* Add position: relative to create a positioning context */
@@ -34,7 +34,7 @@
 /* Start - text under hero image, centered */
 .content-container {
   width: 100%;
-  max-width: 800px; /* Adjust the max-width as needed */
+  max-width: 50rem; /* Adjust the max-width as needed */
   margin: 1rem auto; /* Center the container horizontally */
 }
 /* End - text under hero image, centered */
@@ -49,7 +49,7 @@
 /* Paragraph section settings */
 .paragraph-section {
   margin: 1rem auto; /* Center the paragraph section horizontally */
-  max-width: 800px; /* Adjust the max-width as needed */
+  max-width: 50rem; /* Adjust the max-width as needed */
 }
 
 /* Mobile Landscape */
